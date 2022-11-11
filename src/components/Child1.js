@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Button, Form, InputGroup } from "react-bootstrap";
 
-// props = { data }
+// props = { data, setData }
 
 const Child1 = ({ data, setData }) => {
   const todoRef = useRef();
